@@ -1,0 +1,6 @@
+{
+  "name": "Art of Coffee & Cuisine — 3D Cafe & Restoran Malang",
+  "description": "Pengalaman digital sinematik 3D untuk specialty coffee dan restoran modern di Kota Malang. Jelajahi menu kurasi, cerita ruang, dan reservasi meja.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

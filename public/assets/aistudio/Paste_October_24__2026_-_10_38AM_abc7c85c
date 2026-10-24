@@ -1,0 +1,767 @@
+# MASTER PRD & PROMPT — WEBSITE 3D CAFE RESTORAN PREMIUM KOTA MALANG
+
+## 1. PERAN ANDA
+
+Bertindaklah sebagai tim profesional yang terdiri dari:
+- Senior Creative Director dan UI/UX Designer.
+- Senior Frontend Developer ahli React, TypeScript, WebGL, Three.js, dan animasi web.
+- 3D Web Experience Designer.
+- Motion Designer yang ahli dalam cinematic animation dan micro-interactions.
+- Conversion Rate Optimization Specialist.
+- SEO Specialist dan Web Performance Engineer.
+
+Tugas Anda adalah MERANCANG, MEMBUAT, DAN MENGIMPLEMENTASIKAN sebuah website cafe & restoran 3D premium yang modern, minimalis, sangat estetik, interaktif, responsif, dan memiliki karakter visual yang berbeda dari website cafe pada umumnya di Kota Malang, Jawa Timur.
+
+JANGAN hanya menampilkan desain, wireframe, prototype statis, atau penjelasan konsep. Langsung buat aplikasi website yang benar-benar berjalan, seluruh komponen terimplementasi, interaksi berfungsi, dan siap dikembangkan serta dipublikasikan.
+
+Jangan berhenti pada halaman hero. Bangun seluruh landing page secara lengkap hingga footer.
+
+Jika ada informasi bisnis yang belum tersedia, gunakan placeholder yang mudah diedit. Jangan mengarang alamat, nomor telepon, harga menu, rating, testimoni, atau informasi bisnis faktual.
+
+---
+
+## 2. VISI PRODUK
+
+Buat website yang membuat pengunjung langsung berpikir:
+
+“Wow, website cafe ini berbeda. Rasanya seperti memasuki pengalaman digital sebuah brand restoran internasional.”
+
+Website harus memiliki karakter:
+- Modern dan minimalis.
+- Clean, sophisticated, dan premium.
+- Cinematic dengan perpaduan pencahayaan yang dramatis.
+- Interaksi 3D yang terasa hidup dan responsif.
+- Animasi yang halus, memukau, dan memiliki tujuan.
+- Memiliki identitas visual yang terinspirasi oleh atmosfer Kota Malang.
+- Tetap mudah digunakan untuk melihat menu, mengetahui lokasi, melakukan reservasi, dan memesan makanan.
+
+Jangan membuat website yang menyerupai template cafe generik, katalog makanan biasa, atau landing page yang hanya dipenuhi card dan gradient.
+
+Hindari desain berlebihan, efek neon yang tidak relevan, animasi yang membuat pengunjung pusing, dan ornamen yang mengurangi keterbacaan.
+
+### Konsep kreatif
+
+Gunakan konsep:
+
+“THE ART OF COFFEE, FOOD & MOVEMENT — MALANG EDITION”
+
+Bangun pengalaman digital yang menggabungkan karakter specialty coffee, kuliner premium, arsitektur modern, tekstur batu vulkanik, suasana sejuk Malang, dan pencahayaan hangat.
+
+Visual khas Malang harus terasa melalui mood, tone, tekstur, siluet perbukitan, dan atmosfernya. Jangan menggunakan ikon Kota Malang secara berlebihan atau menjadikan website terlihat seperti situs pariwisata.
+
+Nama brand sementara: [NAMA CAFE / RESTORAN].
+
+Semua nama brand, tagline, informasi kontak, lokasi, menu, harga, foto, dan identitas restoran harus mudah diganti.
+
+---
+
+## 3. TARGET PENGGUNA
+
+Website ditujukan untuk:
+- Anak muda dan mahasiswa di Kota Malang.
+- Profesional muda dan pekerja.
+- Pasangan dan keluarga yang mencari tempat makan nyaman.
+- Penggemar specialty coffee dan kuliner.
+- Pengunjung yang mencari tempat nongkrong dengan suasana berkelas.
+- Calon pelanggan yang ingin melihat menu, mengetahui lokasi, melakukan reservasi, atau memesan melalui WhatsApp.
+
+Website harus menciptakan kesan premium tanpa membuat akses informasi menjadi rumit.
+
+---
+
+## 4. DESAIN VISUAL DAN ART DIRECTION
+
+### Palet warna
+
+Gunakan palet warna yang konsisten:
+
+- Deep Charcoal: #171918
+- Warm Cream: #F2EBDD
+- Soft White: #FAF9F6
+- Burnt Copper: #B8754D
+- Muted Olive: #737766
+- Stone Grey: #77766F
+
+Gunakan background gelap untuk hero sinematik dan bagian visual utama. Gunakan background cream atau off-white untuk area menu dan informasi agar ritme visual website terasa seimbang.
+
+Warna copper berfungsi sebagai aksen, bukan warna dominan.
+
+### Tipografi
+
+Gunakan kombinasi:
+- Typeface display editorial seperti Playfair Display atau Cormorant Garamond untuk headline tertentu.
+- Typeface sans-serif modern seperti Inter atau Manrope untuk navigasi, paragraf, tombol, dan informasi menu.
+
+Headline harus memiliki hierarki visual yang kuat. Gunakan ukuran tipografi responsif, white space luas, line-height nyaman, dan komposisi editorial.
+
+Pastikan font memiliki fallback agar halaman tetap terbaca jika font eksternal gagal dimuat.
+
+### Prinsip desain
+
+1. Premium editorial, bukan template bisnis biasa.
+2. Setiap section mempunyai komposisi visual berbeda.
+3. Negative space harus dimanfaatkan dengan sengaja.
+4. Gunakan foto berkualitas tinggi dan objek 3D yang menjadi pusat perhatian.
+5. Gunakan garis tipis, detail mikro, dan transisi warna secara terukur.
+6. Jangan memenuhi seluruh layar dengan elemen.
+7. Semua animasi harus memperkuat identitas brand dan membantu storytelling.
+
+---
+
+## 5. HERO SECTION — CINEMATIC 3D EXPERIENCE
+
+Ini adalah bagian terpenting dari website.
+
+Ketika halaman pertama kali dibuka, pengunjung harus langsung mendapatkan pengalaman visual yang berkesan.
+
+### Komposisi
+
+Buat hero setinggi kurang lebih 90–100svh pada desktop dengan komposisi editorial.
+
+Bagian kiri atau area utama berisi:
+
+Label kecil:
+“COFFEE · CUISINE · COMMUNITY”
+
+Headline:
+“Bukan Sekadar Rasa. Sebuah Pengalaman.”
+
+Subheadline:
+“Temukan perpaduan rasa, ruang, dan suasana dalam pengalaman bersantap yang berbeda di Malang.”
+
+CTA utama:
+“Jelajahi Menu”
+
+CTA sekunder:
+“Temukan Lokasi Kami”
+
+Tambahkan elemen kecil:
+“MADE FOR SLOW MOMENTS”
+“EST. [TAHUN BERDIRI]”
+
+Semua copy harus dapat diubah melalui data konfigurasi.
+
+### Visual 3D utama
+
+Buat centerpiece 3D interaktif berupa cangkir kopi keramik premium dengan material realistis, pencahayaan studio sinematik, pantulan cahaya lembut, dan bayangan yang terasa natural.
+
+Jika brand lebih berorientasi restoran, objek utama dapat diganti menjadi sajian signature yang ditampilkan secara editorial.
+
+Detail visual yang diharapkan:
+- Cangkir kopi melayang dengan animasi rotasi yang sangat halus.
+- Uap kopi bergerak naik secara natural.
+- Partikel kecil bercahaya bergerak secara subtil.
+- Beberapa biji kopi mengorbit objek utama dengan lintasan yang elegan.
+- Lingkaran tipis atau elemen geometris membentuk orbit visual.
+- Pencahayaan warm copper dan ivory.
+- Latar belakang dengan gradasi gelap, noise tekstur yang sangat halus, dan siluet pegunungan yang minimal.
+- Efek kedalaman menggunakan perspective dan parallax.
+- Highlight bergerak lembut pada permukaan keramik.
+- Gerakan objek merespons pointer secara natural dengan batas rotasi yang wajar.
+
+Interaksi scroll dapat mengubah sedikit posisi, skala, pencahayaan, atau perspektif objek 3D untuk menciptakan storytelling yang berkelanjutan.
+
+Jangan menggunakan terlalu banyak objek yang saling bertabrakan. Fokus pada satu objek utama yang benar-benar terlihat premium.
+
+### Animasi saat pertama kali dibuka
+
+Urutan animasi yang disarankan:
+1. Background muncul secara smooth.
+2. Logo dan navigasi masuk dengan fade serta pergeseran kecil.
+3. Headline tampil secara staggered.
+4. Deskripsi dan CTA masuk setelah headline.
+5. Objek 3D muncul dengan efek scale, rotation, dan reveal.
+6. Uap dan partikel mulai bergerak.
+7. Elemen kecil menampilkan animasi idle yang sangat halus.
+
+Hindari intro panjang yang menghalangi pengunjung mengakses konten.
+
+Loader hanya boleh digunakan apabila benar-benar dibutuhkan. Jangan menahan tampilan website hanya demi animasi.
+
+### Scroll cue
+
+Tambahkan indikator:
+“SCROLL TO EXPLORE”
+
+Buat animasi garis vertikal sederhana yang memberi petunjuk bahwa masih ada konten di bawah.
+
+---
+
+## 6. NAVIGATION BAR
+
+Buat navbar premium dengan:
+- Logo atau wordmark brand.
+- Home.
+- Our Story.
+- Menu.
+- Experience.
+- Gallery.
+- Location.
+- Tombol “Reservasi”.
+
+Navbar transparan pada hero, lalu berubah menjadi background semi-solid dengan blur yang elegan ketika halaman discroll.
+
+Gunakan transisi navbar yang halus.
+
+Pada mobile, tampilkan menu hamburger dengan drawer yang mudah digunakan. Drawer harus menutup setelah sebuah link dipilih.
+
+Semua tautan harus menuju section atau halaman tujuan yang benar. Jangan membuat tombol navigasi tanpa fungsi.
+
+---
+
+## 7. BRAND STORY SECTION
+
+Buat section dengan headline editorial:
+
+“Setiap Ruang Punya Cerita. Setiap Rasa Punya Karakter.”
+
+Tampilkan narasi mengenai pengalaman menikmati kopi, makanan, suasana, dan kebersamaan.
+
+Gunakan teks sebagai placeholder brand story, bukan klaim faktual mengenai sejarah restoran yang belum diketahui.
+
+Komposisi:
+- Headline berukuran besar.
+- Satu paragraf cerita singkat.
+- Foto interior atau aktivitas penyajian makanan.
+- Detail tekstur batu, kayu gelap, bayangan, atau metal.
+- Animasi parallax ringan pada foto.
+- Reveal teks secara bertahap ketika section masuk viewport.
+
+Tambahkan label editorial:
+“OUR PHILOSOPHY / 01”
+
+Tujuannya adalah menciptakan identitas brand yang memiliki karakter, bukan sekadar menjual makanan.
+
+---
+
+## 8. SIGNATURE MENU SECTION
+
+Buat section menu dengan tampilan seperti editorial majalah kuliner premium.
+
+Headline:
+“Crafted to Be Remembered.”
+
+Subheadline:
+“Temukan pilihan rasa yang dirancang untuk menemani setiap momen.”
+
+Kategori menu:
+- Coffee.
+- Non-Coffee.
+- Main Course.
+- Light Bites.
+- Dessert.
+
+Buat filter kategori yang benar-benar berfungsi.
+
+Setiap produk memiliki:
+- Foto produk.
+- Nama menu.
+- Deskripsi singkat.
+- Harga yang diambil dari data menu.
+- Label kategori.
+- Tombol detail atau pesan.
+
+Gunakan data demonstrasi yang jelas diberi penanda sebagai konten contoh. Jangan mengklaim bahwa menu tersebut benar-benar tersedia pada bisnis nyata.
+
+### Interaksi menu
+
+- Card memiliki efek hover berupa perubahan skala yang sangat kecil, reveal informasi, dan pergeseran visual yang halus.
+- Gambar dapat bergerak sedikit mengikuti pointer pada desktop.
+- Filter kategori harus mengubah menu yang ditampilkan.
+- Klik produk membuka modal detail atau panel produk.
+- Modal dapat ditutup menggunakan tombol close, Escape, dan mekanisme aksesibilitas yang benar.
+- Pada mobile, interaksi harus tetap berfungsi melalui tap.
+
+Jangan membuat animasi card terlalu ramai atau menyulitkan pengguna membandingkan menu.
+
+---
+
+## 9. SIGNATURE 3D SCROLL STORY
+
+Buat satu section khusus yang menjadi ciri khas website ini dan membedakannya dari template cafe biasa.
+
+Nama section:
+“THE MAKING OF A MOMENT”
+
+Konsep:
+Pengunjung menyaksikan perjalanan visual sebuah pengalaman kopi atau hidangan melalui tiga babak.
+
+BABAK 01 — THE ORIGIN
+Visual bahan, biji kopi, rempah, atau bahan makanan dengan pencahayaan sinematik.
+
+BABAK 02 — THE CRAFT
+Visual proses penyeduhan kopi atau persiapan hidangan. Gunakan gerakan objek, perubahan perspektif, dan transisi yang lembut.
+
+BABAK 03 — THE MOMENT
+Hidangan atau cangkir kopi tampil sebagai hero visual dengan pencahayaan hangat dan komposisi premium.
+
+Gunakan scroll progress untuk mengendalikan transisi visual antarbabak.
+
+Implementasi boleh menggunakan scene 3D, animasi CSS, animasi SVG, atau kombinasi teknik yang sesuai dengan performa aplikasi.
+
+Penting:
+- Jangan mensyaratkan aset 3D eksternal yang tidak tersedia.
+- Jika model 3D realistis tidak tersedia, buat alternatif visual menggunakan CSS 3D atau bentuk geometris yang elegan.
+- Scene harus tetap memiliki komposisi yang baik meskipun animasi dinonaktifkan.
+- Hindari scroll hijacking yang membuat pengunjung kehilangan kendali atas halaman.
+- Jangan memaksakan section yang terlalu tinggi di mobile.
+- Scroll harus tetap normal dan alami.
+
+---
+
+## 10. EXPERIENCE SECTION
+
+Headline:
+“More Than a Place to Eat.”
+
+Tampilkan tiga pilar pengalaman:
+
+01 — THE ATMOSPHERE
+Ruang dengan pencahayaan, material, dan suasana yang mendukung momen bersantai.
+
+02 — THE FLAVOR
+Kopi dan hidangan yang disajikan dengan perhatian terhadap pengalaman rasa.
+
+03 — THE MOMENT
+Tempat untuk bertemu, berbincang, bekerja, dan menghabiskan waktu bersama.
+
+Gunakan foto dan komposisi visual yang berbeda pada setiap pilar.
+
+Tambahkan animasi reveal dan pergeseran visual saat discroll, tanpa membuat konten sulit dibaca.
+
+Jangan mengklaim fasilitas, bahan organik, sertifikasi, atau keunggulan kualitas tertentu yang belum dikonfirmasi.
+
+---
+
+## 11. GALLERY SECTION
+
+Buat gallery visual dengan komposisi editorial yang tidak monoton.
+
+Tampilkan variasi:
+- Interior cafe atau restoran.
+- Detail minuman.
+- Makanan signature.
+- Detail penyajian.
+- Suasana meja dan pencahayaan.
+- Aktivitas pengunjung, jika foto yang sah dan tersedia.
+
+Gunakan kombinasi ukuran gambar yang berbeda melalui CSS Grid yang responsif.
+
+Interaksi:
+- Hover zoom sangat ringan.
+- Image reveal ketika memasuki viewport.
+- Klik gambar untuk membuka lightbox.
+- Lightbox dapat ditutup menggunakan tombol close dan Escape.
+- Mobile mendukung tap dengan navigasi yang mudah.
+
+Utamakan foto yang benar-benar mewakili bisnis. Jika belum tersedia, gunakan gambar placeholder yang mudah diganti.
+
+---
+
+## 12. TESTIMONIAL SECTION
+
+Buat area ulasan pelanggan yang minimalis.
+
+Headline:
+“Moments Worth Coming Back For.”
+
+Tampilkan struktur testimonial yang dapat diisi kemudian:
+- Nama pelanggan atau inisial.
+- Isi ulasan.
+- Rating jika sudah diverifikasi.
+- Sumber ulasan apabila memang tersedia.
+
+Jangan membuat testimoni palsu seolah-olah berasal dari pelanggan nyata.
+
+Ketika belum ada data, tampilkan desain editorial dengan pesan ajakan untuk menjadi pelanggan pertama yang berbagi pengalaman, atau sembunyikan section sampai data tersedia.
+
+---
+
+## 13. LOCATION SECTION — MALANG, INDONESIA
+
+Buat section lokasi dengan nuansa visual yang terinspirasi oleh Kota Malang.
+
+Headline:
+“Your Next Favorite Place in Malang.”
+
+Sediakan:
+- Alamat lengkap.
+- Jam operasional.
+- Tombol navigasi Google Maps.
+- Tombol WhatsApp.
+- Informasi reservasi.
+- Peta atau embed Google Maps jika URL lokasi sudah tersedia.
+
+Gunakan placeholder:
+[ALAMAT LENGKAP]
+[URL GOOGLE MAPS]
+[NOMOR WHATSAPP]
+[JAM OPERASIONAL]
+
+Jangan membuat alamat palsu atau menentukan koordinat secara sembarangan.
+
+Tombol Google Maps menggunakan URL konfigurasi yang dapat diubah. Jika lokasi belum diisi, tampilkan informasi bahwa data lokasi perlu dilengkapi dan jangan membuat link yang rusak.
+
+Tombol WhatsApp harus menggunakan nomor yang diatur pada konfigurasi aplikasi.
+
+---
+
+## 14. RESERVATION & ORDERING
+
+Buat alur reservasi yang praktis dan profesional.
+
+Form reservasi:
+- Nama.
+- Nomor WhatsApp.
+- Tanggal kunjungan.
+- Waktu kunjungan.
+- Jumlah tamu.
+- Catatan tambahan.
+
+Persyaratan:
+- Validasi input.
+- Field wajib harus diperiksa.
+- Tanggal masa lalu tidak boleh dipilih.
+- Tampilkan pesan validasi yang mudah dipahami.
+- Layout nyaman di mobile.
+
+Jika belum ada backend, buat mekanisme reservasi yang benar-benar dapat dijalankan dengan membentuk pesan WhatsApp dari data form menggunakan nomor bisnis yang dikonfigurasi.
+
+Contoh format pesan:
+
+Halo [NAMA CAFE], saya ingin melakukan reservasi.
+
+Nama: [Nama]
+Tanggal: [Tanggal]
+Waktu: [Waktu]
+Jumlah tamu: [Jumlah]
+Catatan: [Catatan]
+
+Mohon informasi ketersediaannya. Terima kasih.
+
+Setelah form tervalidasi, buka WhatsApp melalui URL yang sesuai dan pesan yang sudah di-encode dengan benar.
+
+Jangan menyatakan reservasi sudah terkonfirmasi jika belum ada sistem yang benar-benar mengonfirmasinya.
+
+Untuk pemesanan menu, tombol pesan dapat membentuk pesan WhatsApp berisi nama menu dan jumlah pesanan. Jangan mengklaim memiliki sistem pembayaran atau checkout otomatis jika belum tersedia.
+
+---
+
+## 15. FOOTER
+
+Buat footer premium dengan:
+- Wordmark brand.
+- Tagline.
+- Navigasi penting.
+- Alamat dan kontak.
+- Social media.
+- Jam operasional.
+- Copyright dinamis menggunakan tahun berjalan.
+- Back-to-top button.
+
+Tambahkan closing statement:
+
+“Good Taste. Great Spaces. Better Moments.”
+
+Seluruh konten harus mudah disunting.
+
+---
+
+## 16. SISTEM ANIMASI — WAJIB DIPERHATIKAN
+
+Animasi merupakan salah satu nilai jual utama website. Buat gerakan yang terasa profesional, konsisten, dan sinematik.
+
+Gunakan kombinasi:
+- CSS keyframes.
+- CSS transforms.
+- Intersection Observer untuk reveal.
+- Framer Motion jika tersedia dan sesuai.
+- Three.js atau React Three Fiber jika dependency dapat digunakan dengan stabil.
+- SVG animation untuk detail ringan.
+- Scroll progress berbasis event atau mekanisme animasi yang efisien.
+
+Terapkan efek berikut jika sesuai:
+1. Cinematic entrance pada hero.
+2. Staggered text reveal.
+3. Floating 3D object.
+4. Coffee steam animation.
+5. Particle drift.
+6. Pointer-reactive parallax.
+7. Smooth navbar transformation.
+8. Scroll-triggered reveal.
+9. Image depth movement.
+10. Product card micro-interactions.
+11. Animated section transitions.
+12. Subtle button magnetic effect pada desktop.
+13. Progress indicator untuk bagian tertentu.
+14. Lightbox transitions.
+15. Modal entrance and exit.
+16. Scroll-driven 3D storytelling.
+
+Pedoman motion:
+- Gunakan easing yang halus.
+- Hindari gerakan yang konstan dan berlebihan.
+- Gunakan durasi dan intensitas yang konsisten.
+- Jangan menggunakan animasi bounce berlebihan.
+- Jangan menerapkan efek magnetik pada kontrol yang menyulitkan pengguna.
+- Pastikan gerakan tidak menghalangi klik, scroll, membaca teks, atau navigasi.
+- Jangan menambahkan banyak event listener tanpa cleanup.
+- Hindari animasi yang menjalankan perhitungan berat setiap frame.
+
+Hormati prefers-reduced-motion. Jika pengguna memilih pengurangan gerak, nonaktifkan animasi yang tidak esensial dan sediakan tampilan statis yang tetap indah.
+
+---
+
+## 17. TEKNOLOGI DAN ARSITEKTUR
+
+Gunakan stack yang sesuai dengan lingkungan pembuatan aplikasi Google AI Studio.
+
+Prioritas:
+- React.
+- TypeScript.
+- Vite atau struktur proyek yang didukung oleh environment.
+- CSS modular atau pendekatan styling yang sudah tersedia.
+- Three.js atau React Three Fiber untuk objek 3D apabila dapat diinstal dan di-build dengan benar.
+- Framer Motion bila memberikan manfaat nyata dan tersedia.
+
+Jangan mengasumsikan semua package sudah terinstal. Periksa konfigurasi proyek terlebih dahulu.
+
+Jika React Three Fiber atau library 3D tidak tersedia, jangan menghentikan pembangunan. Implementasikan alternatif menggunakan CSS 3D, SVG, gradient, dan animasi transform.
+
+Jangan mengganti konfigurasi build secara sembarangan.
+
+Struktur kode yang dianjurkan:
+- App.tsx sebagai root aplikasi.
+- components/Navbar.tsx.
+- components/HeroSection.tsx.
+- components/ThreeDScene.tsx.
+- components/BrandStory.tsx.
+- components/MenuSection.tsx.
+- components/ExperienceSection.tsx.
+- components/GallerySection.tsx.
+- components/LocationSection.tsx.
+- components/ReservationForm.tsx.
+- components/Footer.tsx.
+- data/menu.ts.
+- data/siteConfig.ts.
+- styles/global.css.
+
+Anda dapat menyesuaikan struktur sesuai proyek yang tersedia. Yang penting adalah kode modular, mudah dirawat, dan konsisten.
+
+Gunakan siteConfig.ts untuk menyimpan nama brand, tagline, nomor WhatsApp, alamat, URL Maps, media sosial, dan informasi umum.
+
+Simpan data menu secara terstruktur, bukan menyebarkan nama produk dan harga secara acak ke seluruh komponen.
+
+Jangan menyalin seluruh aplikasi ke dalam satu file yang sulit dipelihara jika proyek mendukung pemisahan komponen.
+
+---
+
+## 18. PERFORMANCE DAN STABILITAS
+
+Website harus terlihat premium tanpa menjadi berat.
+
+Target kualitas:
+- Respons visual cepat.
+- Tidak ada scroll yang tersendat karena animasi.
+- Animasi 3D tidak memblokir rendering konten.
+- Layout tidak melompat ketika gambar dimuat.
+- Tidak ada horizontal overflow yang tidak disengaja.
+- Semua gambar memiliki ukuran tampilan yang jelas.
+- Gunakan lazy loading pada gambar di luar hero.
+- Kurangi resolusi dan kompleksitas objek 3D jika diperlukan.
+- Batasi jumlah partikel dan draw calls.
+- Hindari perhitungan 3D berulang yang tidak perlu.
+- Gunakan dynamic import untuk scene 3D yang berat bila sesuai.
+- Gunakan poster atau fallback visual jika WebGL tidak didukung.
+- Bersihkan event listener, observer, animation frame, dan resource WebGL saat komponen dilepas.
+- Hindari error console dan error saat build.
+
+Jadikan konten utama dapat dibaca meskipun scene 3D masih dimuat.
+
+Pada perangkat mobile atau perangkat berperforma rendah, gunakan versi animasi yang lebih ringan. Jangan memaksakan semua efek desktop ke mobile.
+
+Jangan mengorbankan kegunaan website hanya untuk mengejar efek visual.
+
+---
+
+## 19. RESPONSIVE DESIGN
+
+Website wajib berfungsi pada:
+- Desktop besar.
+- Laptop.
+- Tablet.
+- Smartphone Android.
+- iPhone.
+
+Perhatian khusus:
+- Hero tidak boleh membuat headline bertabrakan dengan objek 3D.
+- Ukuran heading menyesuaikan lebar layar.
+- Navbar mobile harus berfungsi penuh.
+- CTA mudah ditekan dengan jari.
+- Modal tidak boleh melampaui tinggi layar.
+- Form harus nyaman diisi menggunakan keyboard mobile.
+- Galeri menyesuaikan kolom.
+- Teks dan harga menu harus terbaca tanpa zoom.
+- Scene 3D harus memiliki komposisi khusus untuk layar kecil.
+- Tidak boleh ada elemen penting yang keluar dari viewport.
+- Konten utama tidak boleh tertutup navbar.
+
+Utamakan pengalaman mobile yang tetap memukau, tetapi lebih ringan dan efisien.
+
+---
+
+## 20. AKSESIBILITAS DAN SEO
+
+Implementasikan:
+- Semantic HTML.
+- Hierarki heading yang benar.
+- Alt text relevan untuk gambar.
+- Kontras teks yang baik.
+- Fokus keyboard yang terlihat.
+- Tombol dan form dengan label yang benar.
+- Navigasi keyboard pada modal dan menu.
+- Title dan meta description.
+- Open Graph metadata dasar.
+- Favicon yang dapat diganti.
+- Canonical URL melalui konfigurasi jika domain sudah tersedia.
+- Heading dan konten yang membantu mesin pencari memahami bisnis.
+
+Tambahkan structured data LocalBusiness atau Restaurant hanya jika jenis bisnis dan informasinya cukup lengkap untuk diisi secara akurat.
+
+Jangan menambahkan rating, alamat, jam operasional, koordinat, atau data bisnis fiktif ke structured data.
+
+Gunakan bahasa Indonesia sebagai bahasa utama website. Bahasa Inggris dapat digunakan untuk label editorial singkat sebagai bagian dari identitas visual.
+
+---
+
+## 21. PENGELOLAAN ASET VISUAL
+
+Jika tersedia folder assets, periksa dan gunakan aset yang sudah ada.
+
+Prioritaskan:
+1. Foto resmi bisnis.
+2. Logo dan identitas brand.
+3. Foto produk dan interior yang relevan.
+4. Model 3D yang benar-benar tersedia dan dapat dimuat.
+5. Visual placeholder yang dapat diganti tanpa mengubah struktur aplikasi.
+
+Jangan membuat import ke file gambar atau model yang sebenarnya tidak ada.
+
+Jangan menggunakan path lokal atau URL yang tidak valid.
+
+Jika membutuhkan aset eksternal:
+- Gunakan sumber yang memiliki URL gambar langsung yang benar.
+- Hindari dependency pada URL pencarian gambar yang dinamis.
+- Berikan alt text.
+- Sediakan fallback ketika gambar gagal dimuat.
+- Jangan menggunakan visual yang tidak relevan hanya untuk memenuhi layout.
+
+Untuk scene 3D, gunakan aset yang legal untuk digunakan, tersedia, dan memiliki format yang didukung. Bila tidak tersedia, bangun alternatif yang stabil dengan CSS atau SVG.
+
+---
+
+## 22. KUALITAS KODE DAN PENGUJIAN
+
+Setelah implementasi selesai, lakukan pemeriksaan menyeluruh.
+
+Periksa:
+- Seluruh import dan export.
+- Dependency yang dibutuhkan.
+- File dan asset path.
+- Komponen yang tidak terdefinisi.
+- Error TypeScript.
+- Error build.
+- Event handler.
+- Link navigasi.
+- Tombol menu.
+- Filter menu.
+- Modal dan lightbox.
+- Form reservasi.
+- Pembentukan pesan WhatsApp.
+- Responsive layout.
+- Animasi dan interaksi pointer.
+- Reduced motion.
+- Fallback WebGL.
+- Browser console.
+- Potensi crash ketika sebuah foto gagal dimuat.
+
+Pastikan semua fitur utama benar-benar mempunyai aksi.
+
+Jangan membuat tombol palsu yang tidak melakukan apa pun.
+
+Jangan meninggalkan teks “TODO”, fungsi kosong, import rusak, atau halaman yang hanya menampilkan loading tanpa akhir.
+
+Jika sebuah integrasi memerlukan informasi dari pemilik bisnis, sediakan placeholder konfigurasi yang jelas dan jelaskan bagian yang perlu dilengkapi.
+
+---
+
+## 23. KRITERIA KEBERHASILAN
+
+Website dinyatakan memenuhi PRD ketika:
+
+[ ] Hero tampil premium dengan centerpiece 3D atau fallback visual yang layak.
+
+[ ] Animasi headline, objek utama, dan transisi section berjalan dengan halus.
+
+[ ] Scroll tetap normal dan responsif.
+
+[ ] Navigasi mengarah ke section yang benar.
+
+[ ] Filter kategori menu benar-benar bekerja.
+
+[ ] Detail produk dapat dibuka dan ditutup.
+
+[ ] Galeri dan lightbox bekerja.
+
+[ ] Form reservasi memiliki validasi.
+
+[ ] WhatsApp menerima pesan yang dibentuk dari data form jika nomor sudah dikonfigurasi.
+
+[ ] Link Google Maps menggunakan URL lokasi yang dapat dikonfigurasi.
+
+[ ] Navbar dan menu mobile berfungsi.
+
+[ ] Reduced motion didukung.
+
+[ ] Gambar yang gagal dimuat tidak merusak keseluruhan layout.
+
+[ ] Tidak ada horizontal overflow pada ukuran layar umum.
+
+[ ] Build berhasil tanpa error yang menghalangi aplikasi berjalan.
+
+[ ] Tidak ada klaim bisnis atau testimoni palsu.
+
+[ ] Seluruh data bisnis mudah diganti melalui konfigurasi.
+
+[ ] Website mempunyai identitas yang berbeda dari template cafe generik.
+
+---
+
+## 24. INSTRUKSI EKSEKUSI AKHIR
+
+Sekarang langsung kerjakan proyek ini.
+
+Langkah implementasi:
+1. Periksa struktur proyek dan dependency yang tersedia.
+2. Bangun sistem desain dan komponen utama.
+3. Implementasikan hero, scene 3D, serta sistem animasi.
+4. Implementasikan seluruh section website.
+5. Sambungkan navigasi, menu, modal, galeri, form, dan CTA.
+6. Integrasikan konfigurasi bisnis.
+7. Terapkan responsive design, reduced motion, accessibility, dan fallback.
+8. Jalankan pemeriksaan build dan perbaiki semua masalah yang ditemukan.
+9. Periksa ulang bahwa tidak ada bagian penting yang hanya berupa mockup.
+
+Jangan hanya memberikan tutorial, saran, atau potongan kode. Implementasikan kode langsung pada file proyek yang tersedia di lingkungan kerja.
+
+Jangan berhenti setelah membuat hero section.
+
+Jangan menyederhanakan desain menjadi template generik.
+
+Utamakan kombinasi kualitas visual yang luar biasa, animasi yang elegan, interaksi yang berfungsi, kecepatan, stabilitas, dan kemudahan pengelolaan.
+
+Jika ada fitur yang tidak dapat diwujudkan secara langsung karena keterbatasan lingkungan, implementasikan alternatif terbaik yang stabil dan tetap menjaga kualitas visual.
+
+Hasil akhirnya harus terasa seperti website flagship dari brand cafe-restoran premium yang berani, modern, interaktif, dan mempunyai identitas khas Kota Malang.
+
+MULAI IMPLEMENTASI SEKARANG.
